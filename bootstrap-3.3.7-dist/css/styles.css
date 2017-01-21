@@ -10,6 +10,11 @@
     src: url('../fonts/PlayFairDisplay-Bold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('../fonts/Poppins-Light.ttf') format('truetype');
+}
+
 header .container {
     font-family: 'Leaguespartan-Bold', Arial, serif !important;
     font-size: 12px;
@@ -29,9 +34,27 @@ body {
 
 /* Header */
 
-header a {
-	color: black !important;
+header {
+	margin-left: 100px;
+	margin-right: 120px;
 }
+
+header a {
+	font-family: 'Leaguespartan-Bold', Arial, serif !important;
+	color: black !important;
+	letter-spacing: 3px;
+}
+
+header img {
+	float: left;
+}
+
+header .description {
+	width:500px;
+}
+
+/* Section 0: part_0 */
+
 
 #part_0  {
 	margin-top: 85px;
@@ -42,17 +65,28 @@ header a {
 	z-index: 1;
 }
 
-/* Section 1: part_0 */
-
-.your {
+#part_0 .your {
 	font-family: 'Leaguespartan-Bold', Arial, serif !important;
 	font-size: 12px;
 	color: #5da8ef !important;
+	letter-spacing: 3px;
 }
 
-h1 {
+#part_0 h1 {
     font-family: 'Playfairdisplay-bold', Arial, serif !important;
     font-size: 83px;
     width: 800px;
  	color: black !important;   
+}
+
+#part_0 p {
+	font-family: 'Poppins-light', Arial, serif !important;
+	color: #8f8f8f;
+	letter-spacing: 1.5px;
+	width: 800px;
+	font-size: 19px;
+}
+
+#part_0 .beautiful {
+	margin-top: 140px;
 }
