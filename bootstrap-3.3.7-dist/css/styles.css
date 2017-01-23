@@ -11,6 +11,11 @@
 }
 
 @font-face {
+    font-family: 'Playfairdisplay-regular';
+    src: url('../fonts/PlayFairDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Poppins-light';
     src: url('../fonts/Poppins-Light.ttf') format('truetype');
 }
@@ -89,4 +94,23 @@ header .description {
 
 #part_0 .beautiful {
 	margin-top: 140px;
+}
+
+/* Section 0.1: part_0.1 */
+
+#part_0_1 {
+	width:100%;
+	text-align: center;
+	color: #333333;
+}
+
+#part_0_1 .blissful {
+	font-family: 'PlayFairDisplay-Regular', Arial, serif !important;
+	font-size: 35px;
+}
+
+#part_0_1 .author {
+	font-family: 'Leaguespartan-Bold', Arial, serif !important;
+	font-size: 12px;
+	letter-spacing: 1.5px;
 }
