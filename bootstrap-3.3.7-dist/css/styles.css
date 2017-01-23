@@ -114,3 +114,14 @@ header .description {
 	font-size: 12px;
 	letter-spacing: 1.5px;
 }
+
+.ligne_verticale {
+    width: 50%;  /* la moitié du <div="corps" */
+    float: left;
+    margin-top: 3%; /* ou 15% */
+    border-right: 2px solid #5da8ef;
+}
+
+#part_1  {
+	margin-top: 200px;
+}
